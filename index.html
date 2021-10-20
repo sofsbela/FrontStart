@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>Sofia Antunes</title>
+    <link href="style.css" rel="stylesheet" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="https://upload.wikimedia.org/wikipedia/commons/f/f9/Google_Lens_-_new_logo.png"
+    />
+    <script src="https://unpkg.com/feather-icons"></script>
+  </head>
+
+  <body>
+    <h1 id="titulo">Sofia Antunes</h1>
+
+    <hr class="break" />
+  
+  <h2>Web Developer</h2>
+
+
+    <p>
+      Far far away, behind the word mountains, far from the countries Vokalia
+      and <br />
+      Consonantia, there live the blind texts. Separated they live in
+      Bookmarksgrove <br />
+      right at the coast of the Semantics, a large language ocean.
+    </p>
+    <p>
+      A small river named Duden flows by their place and supplies it with the
+      <br />
+      necessary regelialia. It is a paradisematic country, in which roasted
+      parts of <br />
+      sentences fly into your mouth.
+    </p>
+
+    <h3>Contact information</h3>
+
+    <div id="contact">
+      
+      <ul>
+        <li>Email: <span id="email">sofia@example.com</span></li>
+        <li>Web: <a id="website" href="http://www.google.com/">http://example.com</a></li>
+        <li id="phone-container">
+          <i class="icon-phone" data-feather="phone"></i>
+          <span id="number">Tel: 123456789</span> 
+        </li>
+      </ul>
+    </div>
+
+    <div class="input-email">
+      <i id= "mail" data-feather="mail"></i>
+      <input id="input-contact" placeholder="Leave your email">
+    </div>
+    
+    <div class="form-container">
+      <form>
+        <h3>Sign In</h3>
+        <div class="input-container">
+          <input type="text" placeholder="Username">
+          <i data-feather="user"></i>
+        </div>
+        <div class="input-container">
+          <input type="password" placeholder="Password">
+          <i data-feather="lock"></i>
+        </div>
+        <div class="options-container">
+          <div class="checkbox-container">
+            <input type="checkbox" name="remember" id="remember">
+            <label for="remember">Remember me</label>
+          </div><a href="https://www.google.com">Reset password</a>
+        </div>
+        <input type="submit" value="Sign in">
+        <p>Or Sign in with</p>
+
+        <div class="social-media-container">
+          <div class="icon-container">
+            <i data-feather="facebook"></i>
+          </div>
+          <div class="icon-container">
+            <i data-feather="mail"></i>
+          </div>
+          <div class="icon-container">
+            <i data-feather="twitter"></i>
+          </div>
+        </div>
+        <hr>
+        <p class="footer">Do not have an account? <a href="https://www.google.com">Sign up now</a></p>
+      </form>
+    </div>
+
+    <img id="sofia" src="imagens/sofia.jpg" alt="minha página de teste" />
+
+    <script>
+      feather.replace()
+    </script>
+
+  </body>
+</html>
