@@ -201,7 +201,35 @@ form .social-media-container .icon-container svg {
     margin: 20px auto;
 }
 
+.grid-container {
+    display: grid;
+    grid-template-columns: 200px auto 100px;
+    grid-template-rows: 65px auto 300px;
+    grid-template-areas: 
+        "logo menu menu"
+        "side-menu content advertise"
+        "footer footer footer"
+    ;
+}
 
+.logo {
+    grid-area: logo;
+}
+.menu {
+    grid-area: menu;
+}
+.side-menu {
+    grid-area: side-menu;
+}
+.content {
+    grid-area: content;
+}
+.advertise {
+    grid-area: advertise;
+}
+.footer {
+    grid-area: footer;
+}
 
 
 #sofia {
